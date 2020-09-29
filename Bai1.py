@@ -75,5 +75,26 @@ hầu hết các ngôn ngữ lập trình
 - Một tuple có dạng (...)
 - VD: ("Tùng", 1999)
 
+7. Kiểu Set
+- Khái niệm: set là 1 dạng list nhưng không tồn tại thứ tự
+- Các phần tử bên trong set không trùng lặp và không thể bị thay đổi
+mặc dù ta có thể thêm hoặc xóa
+- Cú pháp: {...}
+- Ví dụ: setA = {"Hoàng", "Văn", "Tùng", 1999}
+- Do các phần tử trong set là bất biến lên không thể lưu trữ 1 list hoặc 1 Dictionary trong set
+(?): Kết quả của print({1, 1, 1, 2, 3}) là gì?
+
+8. Kiểu Dictionary
+- Dictionary còn được gọi là object trong các ngôn ngữ lập trình khác, cũng như list, đây
+là 1 trong 2 kiểu dữ liệu cần được quan tâm nhất trong bất cứ ngôn ngữ lập trình nào
+- Các phần tử bên trong nó được cấu tạo bởi key:value và được đặt bên trong cặp {...} giống set
+    + key: là 1 chuỗi hoặc số, các key trong dictionary không được trùng nhau
+    + value: bất cứ 1 kiểu dữ liệu nào 
+- Ví dụ 1 : {"name":"Hoàng Văn Tùng", "birtday":[18, 2, 1999], 1:{2:3, 3:4}}
+- Để lấy các phần tử trong dictionary, ta có cú pháp: {Dictionary}[key]
+- Ví dụ 2: 
+    Cho {"name":"Tùng", "age":21, 1999:"Năm Sinh"}
+    Gọi ra name: print({"name":"Tùng", "age":21, 1999:"Năm Sinh"}["name"])
+    (?): Hãy lấy ra age và 1999
 
 '''
