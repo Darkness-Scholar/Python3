@@ -97,4 +97,13 @@ là 1 trong 2 kiểu dữ liệu cần được quan tâm nhất trong bất c�
     Gọi ra name: print({"name":"Tùng", "age":21, 1999:"Năm Sinh"}["name"])
     (?): Hãy lấy ra age và 1999
 
+9. Kiểu phạm vi (range)
+- Là phạm vi sử dụng số học trong Python, thường được dùng trong các vòng lặp
+- Cú pháp: range(start, end)
+    start: số bắt đầu
+    end: số kết thúc
+- Ví dụ: range(1, 5)
+- Ngoài ra còn có range(start, end, step) trong đó step là bước nhảy 
+- Kiểu dữ liệu này sẽ được học trong các bài về vòng lặp...
+
 '''
