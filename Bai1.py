@@ -77,4 +77,3 @@ hầu hết các ngôn ngữ lập trình
 
 
 '''
-print(type(None))
